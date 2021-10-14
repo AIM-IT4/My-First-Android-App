@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone11ProX7VM" type="com.application.app.modules.iphone11prox7.data.viewmodel.Iphone11ProX7VM"/>
+    </data>
+    <FrameLayout android:id="@+id/frame"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <View
+            android:background="@drawable/rectangle_bg_indigo_a709_radius_20"
+            android:id="@+id/view" android:layout_gravity="center"
+            android:layout_height="@dimen/_812pxv" android:layout_width="@dimen/_375pxh"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtAmazonPay"
+            android:layout_gravity="top|end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_708pxv"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_83pxv"
+            android:layout_width="wrap_content"
+            android:text="@{iphone11ProX7VM.iphone11ProX7Model.txtAmazonPay}"
+            style="@style/textStylePublicSanssemibold18_7" tools:text="@string/lbl_amazon_pay"/>
+    </FrameLayout>
+</layout>

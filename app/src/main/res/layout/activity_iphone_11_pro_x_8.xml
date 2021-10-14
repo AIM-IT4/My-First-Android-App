@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone11ProX8VM" type="com.application.app.modules.iphone11prox8.data.viewmodel.Iphone11ProX8VM"/>
+    </data>
+    <FrameLayout android:id="@+id/frame"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <View
+            android:background="@drawable/rectangle_bg_indigo_a709_radius_20"
+            android:id="@+id/view" android:layout_gravity="center"
+            android:layout_height="@dimen/_812pxv" android:layout_width="@dimen/_375pxh"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtPhonepe"
+            android:layout_gravity="top|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_711pxv"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_80pxv"
+            android:layout_width="wrap_content"
+            android:text="@{iphone11ProX8VM.iphone11ProX8Model.txtPhonepe}"
+            style="@style/textStylePublicSanssemibold18_7" tools:text="@string/lbl_phonepe"/>
+    </FrameLayout>
+</layout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone11ProX4VM" type="com.application.app.modules.iphone11prox4.data.viewmodel.Iphone11ProX4VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleindigo_a701">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:id="@+id/linear1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:clickable="true"
+                    android:id="@+id/image" android:layout_gravity="top"
+                    android:layout_height="@dimen/_40pxv"
+                    android:layout_marginStart="@dimen/_17pxh"
+                    android:layout_width="@dimen/_33pxh"
+                    android:scaleType="centerCrop" android:src="@drawable/img_menu"/>
+                <ImageView android:id="@+id/image1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/_68pxv"
+                    android:layout_marginStart="@dimen/_50pxh"
+                    android:layout_width="@dimen/_58pxh"
+                    android:scaleType="centerCrop"
+                    imageRes="@{@drawable/img_image_1}" tools:src="@drawable/img_image_1"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linear2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtHeyAmitKJha"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_50pxh"
+                    android:layout_width="match_parent"
+                    android:text="@{iphone11ProX4VM.iphone11ProX4Model.txtHeyAmitKJha}"
+                    style="@style/textStylePublicSansbold24_1" tools:text="@string/msg_hey_amit_k_jha"/>
+                <LinearLayout android:id="@+id/linear3"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_53pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+                    <TextView android:gravity="top|start"
+                        android:id="@+id/txtChooseAppToS"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_17pxh"
+                        android:layout_marginStart="@dimen/_17pxh"
+                        android:layout_marginTop="@dimen/_33pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{iphone11ProX4VM.iphone11ProX4Model.txtChooseAppToS}"
+                        style="@style/textStylePoppinsbold24" tools:text="@string/msg_choose_app_to_s"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:id="@+id/btnPaytm"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_50pxh"
+                        android:layout_marginStart="@dimen/_50pxh"
+                        android:layout_marginTop="@dimen/_24pxv"
+                        android:layout_width="match_parent"
+                        android:text="@string/lbl_paytm"
+                        android:textAllCaps="false"
+                        style="@style/textStylePublicSanssemibold18" tools:text="@string/lbl_paytm"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:id="@+id/btnGooglePay"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_50pxh"
+                        android:layout_marginStart="@dimen/_50pxh"
+                        android:layout_marginTop="@dimen/_42pxv"
+                        android:layout_width="match_parent"
+                        android:text="@string/lbl_google_pay"
+                        android:textAllCaps="false"
+                        style="@style/textStylePublicSanssemibold18_1" tools:text="@string/lbl_google_pay"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:id="@+id/btnAmazonPay"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_50pxh"
+                        android:layout_marginStart="@dimen/_50pxh"
+                        android:layout_marginTop="@dimen/_47pxv"
+                        android:layout_width="match_parent"
+                        android:text="@string/lbl_amazon_pay"
+                        android:textAllCaps="false"
+                        style="@style/textStylePublicSanssemibold18_2" tools:text="@string/lbl_amazon_pay"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:id="@+id/btnPhonepe"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_50pxh"
+                        android:layout_marginStart="@dimen/_50pxh"
+                        android:layout_marginTop="@dimen/_47pxv"
+                        android:layout_width="match_parent"
+                        android:text="@string/lbl_phonepe"
+                        android:textAllCaps="false"
+                        style="@style/textStylePublicSanssemibold18_3" tools:text="@string/lbl_phonepe"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:id="@+id/btnMobikwik"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_89pxv"
+                        android:layout_marginEnd="@dimen/_50pxh"
+                        android:layout_marginStart="@dimen/_50pxh"
+                        android:layout_marginTop="@dimen/_44pxv"
+                        android:layout_width="match_parent"
+                        android:text="@string/lbl_mobikwik"
+                        android:textAllCaps="false"
+                        style="@style/textStylePublicSanssemibold18_4" tools:text="@string/lbl_mobikwik"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>
