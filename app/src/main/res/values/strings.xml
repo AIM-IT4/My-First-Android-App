@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">application1</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_continue">Continue</string>
+<string name="msg_paytm_weaknesse">Paytm Weaknesses</string>
+<string name="lbl_enter_name">Enter name</string>
+<string name="lbl_google_pay">Google Pay</string>
+<string name="msg_paytm_opportuni">Paytm opportunities</string>
+<string name="msg_confirm_passwor">Confirm Password</string>
+<string name="msg_below_are_the_s">Below are the Strengths in the SWOT Analysis of Paytm:&#13;
+&#13;
+1. Paytm has got extremely high brand awareness across India&#13;
+&#13;
+2. Paytm was able to scale up its business quickly after demonetization&#13;
+&#13;
+3. Offers multiple cashback options to customers&#13;
+&#13;
+4. Paytm is largely accepted by merchants across India, which has helped the brand grow&#13;
+&#13;
+5. Strong marketing campaigns have helped spread brand awareness&#13;
+&#13;
+6. Word of mouth of cashless transactions and ease of use has been accepted well by the people</string>
+<string name="lbl_apps">Apps</string>
+<string name="lbl_home">Home</string>
+<string name="lbl_phonepe">PhonePe</string>
+<string name="msg_hey_amit_k_jha">Hey Amit K Jha !</string>
+<string name="lbl_paytm_strengths">Paytm Strengths</string>
+<string name="msg_following_are_t">Following are the Opportunities in Paytm SWOT Analysis:&#13;
+&#13;
+1. Paytm can cater to a larger audience with some offline presence as well&#13;
+&#13;
+2. Paytm can educated customers on accepting cashless transactions and online payments which would in turn boost their customer base&#13;
+&#13;
+3. Offer more banking services along with online payment options</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="lbl_a4_1">A4 - 1</string>
+<string name="lbl_about_us">About us</string>
+<string name="lbl_enter_email">Enter email</string>
+<string name="lbl_welcome">Welcome</string>
+<string name="lbl_sign_in">Sign in</string>
+<string name="msg_get_analysis_of">Get analysis of all payment apps</string>
+<string name="lbl_contact_us">Contact us</string>
+<string name="lbl_mobikwik">Mobikwik</string>
+<string name="lbl_welcome_back">Welcome back</string>
+<string name="msg_iphone_11_pro6">iPhone 11 Pro / X - 10</string>
+<string name="msg_check_your_app">Check your app\'s UI from the below demo screens of your app.</string>
+<string name="msg_iphone_11_pro7">iPhone 11 Pro / X - 6</string>
+<string name="msg_iphone_11_pro10">iPhone 11 Pro / X - 9</string>
+<string name="lbl_get_started">Get started</string>
+<string name="msg_iphone_11_pro8">iPhone 11 Pro / X - 7</string>
+<string name="msg_iphone_11_pro9">iPhone 11 Pro / X - 8</string>
+<string name="lbl_password">Password</string>
+<string name="msg_iphone_11_pro2">iPhone 11 Pro / X - 2</string>
+<string name="msg_iphone_11_pro3">iPhone 11 Pro / X - 3</string>
+<string name="lbl_finalytics_app">Finalytics App</string>
+<string name="msg_iphone_11_pro4">iPhone 11 Pro / X - 4</string>
+<string name="msg_iphone_11_pro5">iPhone 11 Pro / X - 5</string>
+<string name="msg_click_on_get_st">click on get started and get 
+information of all digital payment apps on your fingertips</string>
+<string name="msg_here_are_the_we">Here are the weaknesses in the Paytm SWOT Analysis:&#13;
+&#13;
+1. Audience in India is less the savvy as majority consider cash as primary currency&#13;
+&#13;
+2. Paytm has diversified too much</string>
+<string name="lbl_register">Register</string>
+<string name="lbl_username">Username</string>
+<string name="msg_choose_app_to_s">Choose app to see analysis</string>
+<string name="lbl_enter_password">Enter Password</string>
+<string name="lbl_amazon_pay">Amazon Pay</string>
+<string name="msg_iphone_11_pro">iPhone 11 Pro / X - 1</string>
+<string name="msg_if_already_regs">If already regsitered ?</string>
+<string name="lbl_paytm">Paytm</string>
+</resources>

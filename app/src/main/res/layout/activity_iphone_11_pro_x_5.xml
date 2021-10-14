@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone11ProX5VM" type="com.application.app.modules.iphone11prox5.data.viewmodel.Iphone11ProX5VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <androidx.appcompat.widget.AppCompatButton
+            android:clickable="true" android:gravity="center"
+            android:id="@+id/btnPaytm"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_73pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_paytm" android:textAllCaps="false"
+            style="@style/textStylePublicSanssemibold18_5" tools:text="@string/lbl_paytm"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtPaytmStrengths"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_30pxv"
+            android:layout_width="match_parent"
+            android:text="@{iphone11ProX5VM.iphone11ProX5Model.txtPaytmStrengths}"
+            style="@style/textStylePublicSanssemibold18_6" tools:text="@string/lbl_paytm_strengths"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtBelowAreTheS"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_29pxv"
+            android:layout_width="match_parent"
+            android:text="@{iphone11ProX5VM.iphone11ProX5Model.txtBelowAreTheS}"
+            style="@style/textStylePublicSansregular18" tools:text="@string/msg_below_are_the_s"/>
+        <LinearLayout android:clickable="true" android:id="@+id/linear1"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_25pxv"
+            android:layout_marginEnd="@dimen/_49pxh"
+            android:layout_marginStart="@dimen/_49pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleindigo_a707cornerRadius">
+            <LinearLayout android:id="@+id/linear2"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginEnd="@dimen/_18pxh"
+                android:layout_marginStart="@dimen/_18pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtContinue"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.66"
+                    android:layout_width="0dp"
+                    android:text="@{iphone11ProX5VM.iphone11ProX5Model.txtContinue}"
+                    style="@style/textStylePublicSanssemibold18_7" tools:text="@string/lbl_continue"/>
+                <ImageView android:id="@+id/image"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/_29pxv"
+                    android:layout_marginStart="@dimen/_7pxh"
+                    android:layout_width="@dimen/_35pxh"
+                    android:scaleType="centerCrop" android:src="@drawable/img_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="a41VM" type="com.application.app.modules.a41.data.viewmodel.A41VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylelight_blue_50">
+        <androidx.appcompat.widget.AppCompatButton
+            android:clickable="true" android:gravity="center"
+            android:id="@+id/btnHome"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_93pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_home" android:textAllCaps="false"
+            style="@style/textStylePublicSanssemibold18_8" tools:text="@string/lbl_home"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:clickable="true" android:gravity="center"
+            android:id="@+id/btnApps"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_42pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_apps" android:textAllCaps="false"
+            style="@style/textStylePublicSanssemibold18_8" tools:text="@string/lbl_apps"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:gravity="center" android:id="@+id/btnAboutUs"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_47pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_about_us"
+            android:textAllCaps="false"
+            style="@style/textStylePublicSanssemibold18_8" tools:text="@string/lbl_about_us"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtContactUs"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_41pxv"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_47pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_12pxv"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_14pxv"
+            android:text="@{a41VM.a41Model.txtContactUs}"
+            style="@style/textStylePublicSanssemibold18_8" tools:text="@string/lbl_contact_us"/>
+    </LinearLayout>
+</layout>

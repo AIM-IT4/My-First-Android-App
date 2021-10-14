@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone11ProX10VM" type="com.application.app.modules.iphone11prox10.data.viewmodel.Iphone11ProX10VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:gravity="top|start" android:id="@+id/txtPaytm"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_87pxv"
+            android:layout_width="match_parent"
+            android:text="@{iphone11ProX10VM.iphone11ProX10Model.txtPaytm}"
+            style="@style/textStylePublicSanssemibold18_7" tools:text="@string/lbl_paytm"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtPaytmWeaknesse"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_52pxv"
+            android:layout_width="match_parent"
+            android:text="@{iphone11ProX10VM.iphone11ProX10Model.txtPaytmWeaknesse}"
+            style="@style/textStylePublicSansbold18_1" tools:text="@string/msg_paytm_weaknesse"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtHereAreTheWe"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_28pxh"
+            android:layout_marginStart="@dimen/_28pxh"
+            android:layout_marginTop="@dimen/_39pxv"
+            android:layout_width="match_parent"
+            android:text="@{iphone11ProX10VM.iphone11ProX10Model.txtHereAreTheWe}"
+            style="@style/textStylePublicSansregular18" tools:text="@string/msg_here_are_the_we"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtPaytmOpportuni"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_45pxv"
+            android:layout_width="match_parent"
+            android:text="@{iphone11ProX10VM.iphone11ProX10Model.txtPaytmOpportuni}"
+            style="@style/textStylePublicSansbold18_1" tools:text="@string/msg_paytm_opportuni"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtFollowingAreT"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_46pxv"
+            android:layout_marginEnd="@dimen/_17pxh"
+            android:layout_marginStart="@dimen/_17pxh"
+            android:layout_marginTop="@dimen/_39pxv"
+            android:layout_width="match_parent"
+            android:text="@{iphone11ProX10VM.iphone11ProX10Model.txtFollowingAreT}"
+            style="@style/textStylePublicSansregular18" tools:text="@string/msg_following_are_t"/>
+    </LinearLayout>
+</layout>
